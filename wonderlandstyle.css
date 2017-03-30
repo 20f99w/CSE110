@@ -1,0 +1,164 @@
+<style type ="text/css" >
+        body {
+            background-image: url(beijing.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            text-align: center;
+            padding:0% 5% 0% 5%;
+        }
+
+        header{
+            background-color:black;
+            width:100%;
+            height:80px;
+            padding:0%;
+            text-align:left;
+        }
+            header a {
+                color: white;
+                font-family: 'Bookman Old Style';
+                font-size: 40px;
+            }
+            header li{display:inline;}
+        a {
+            text-decoration: none;
+            color:white;
+        }
+        a:link{color:white;}
+        a:visited{color:white;}
+
+/*导航栏（完成）*/
+        #menu {
+            line-height: 50px;
+            background-color: #000000;
+            float: left;
+            font-size: 20px;
+            font-family:Tahoma;
+            height:60%;
+        }
+            #menu a:link{color:white;}
+            #menu a:visited{color:white;}
+            #menu a:hover{background-color:#CCCCCC;
+            }
+            #menu a:active {
+                background-color: #CCCCCC;
+            }
+            #menu a {
+                background-color: #666666;
+                padding:5px 50px;
+            }
+            #menu li{text-align:left;}
+/*人物简介(finish*/
+        #personinfo {
+            background-color:black;
+            width: 100%;
+            height: 65%;
+            float: left;
+            padding: 10px;
+            margin: 5%;
+            text-align:center;
+        
+        }
+            #personinfo table {
+                color: white;
+                width: 70%;
+                height: 60%;
+                font-family: Arial;
+                font-size: 15px;
+                align-content: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #personinfo table img {
+                padding: 10px;
+            }
+           
+                #personinfo table ul{
+                list-style-image: url('icon.png');
+
+            }
+   
+/*hobby(finish*/
+        #hobbies {
+            background-color: black;
+            width: 100%;
+            height: 65%;
+            padding: 10px;
+            margin: 5%;
+            text-align: left;
+            color: white;
+            font-family:Arial;
+            
+        }      
+           .w1 {
+                text-align: center;
+            }
+        .w2 {
+            margin: 5% 10%;
+
+        }
+           #hobbies a:hover{
+            background-color:#666666;
+            padding:5px;
+           }
+       
+/*More about me(finish)*/
+        #more {
+            background-color:black;
+            width: 100%;
+            height: 65%;
+            padding: 10px;
+            margin: 5%;
+            text-align: left;
+            color: white;
+            font-family: Arial;
+        }
+            #more table {
+                border:1px solid white;
+                width: 70%;
+                height: 60%;
+                font-family: Arial;
+                font-size: 15px;
+                align-content: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+/*末尾（完成）*/
+        #last{
+            background-color:black;
+            font-family:Arial;
+            color:white;
+            z-index:-1;
+            padding:10px;
+          
+        }
+            #last a:link{color:white;}
+            #last a:visited{color:white;}
+            #last a:hover{background-color:white;
+                          color:black;
+            }
+            #last a:active {
+                background-color: white;
+                color: white;
+            }
+            #last table {
+                padding-left:10%;
+                color: white;
+                width: 90%;
+                text-align: center;
+            }
+        #last table tr {
+                height: 20px;
+            }
+        #last table td {width:25%;}
+
+/*三个div组成的表格，网页本体（完成）*/
+        #dabiaoge {
+          
+            width:70%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        </style>
